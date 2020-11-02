@@ -1,0 +1,25 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "trabajando con el asincronismo en javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "prueba": "node src/callback/index.js",
+    "callback": "node src/callback/callback.js",
+    "promise": "node src/promise/index.js",
+    "challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+
+  },
+  "keywords": [
+    "callback",
+    "promesas",
+    "async"
+  ],
+  "author": "Daniel Suarez",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
